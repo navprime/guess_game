@@ -63,6 +63,7 @@ def reset_button_handler():
 root = tk.Tk()
 root.title("Guessing Game")
 root.geometry("600x200")
+root.resizable(0, 0)
 #frame = tk.Frame()
 # frame.pack()
 
