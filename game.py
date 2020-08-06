@@ -23,7 +23,7 @@ def submit_button_handler():
     global chances_remaining, number_of_attempts
     # print("Submit button clicked !")
     if chances_remaining == 0:
-        guess_attempt.config(text="Sorry! We have run out of your chances !")
+        guess_attempt.config(text="Sorry! We have no more chances left !")
         return
 
     guessed_str = box.get()
